@@ -1,0 +1,14 @@
+<resources>
+    <color name="primaryColor">#81c784</color>
+    <color name="primaryLightColor">#b2fab4</color>
+    <color name="primaryDarkColor">#519657</color>
+    <color name="secondaryColor">#7e57c2</color>
+    <color name="secondaryLightColor">#b085f5</color>
+    <color name="secondaryDarkColor">#4d2c91</color>
+    <color name="primaryTextColor">#000000</color>
+    <color name="secondaryTextColor">#ffffff</color>
+    <color name="redCourt">#ffbb93</color>
+    <color name="blueCourt">#6ec6ff</color>
+    <color name="greenCourt">#aed581</color>
+    <color name="white">#ffffff</color>
+</resources>

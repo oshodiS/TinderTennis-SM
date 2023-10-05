@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Tinder Tennis</string>
+    <string name="text_reg">Registrazione</string>
+    <string name="text_pass">Password</string>
+    <string name="text_usr">Username</string>
+    <string name="text_name">Nome</string>
+    <string name="text_lname">Cognome</string>
+    <string name="text_date">Data di Nascita</string>
+    <string name="rating">Livello di esperienza</string>
+    <string name="text_sign">Accedi</string>
+    <string name="nav_home">Dashboard</string>
+    <string name="nav_user">Mio Profilo</string>
+    <string name="nav_match">Partite</string>
+    <string name="hint_data">Data</string>
+    <string name="hint_cell">Numero di Telefono</string>
+    <string name="hint_cost">Costo</string>
+    <string name="hint_save">Salva</string>
+    <string name="hint_ora">Ora</string>
+    <string name="hint_luogo">Luogo</string>
+    <string name="hint_info">Informazioni Aggiuntive</string>
+    <string name="title_add">Nuova proposta</string>
+    <string name="menu_court">Scegli tipo campo</string>
+    <string name="tab_mieproposte">Mie Proposte</string>
+    <string name="tab_accettate"> Proposte Accettate</string>
+    <string name="title_detail"> Dettagli Proposte</string>
+    <string name="title_user"> Giocatore</string>
+    <string name="menu_lvl">Seleziona il tuo Livello</string>
+
+    <string-array name="court_type">
+        <item>Cemento sintetico</item>
+        <item>Terra battuta</item>
+        <item>Erba</item>
+    </string-array>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+</resources>

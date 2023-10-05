@@ -1,0 +1,87 @@
+
+
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_margin="20dp"
+        xmlns:tools="http://schemas.android.com/tools"
+        >
+
+        <TextView
+            android:id="@+id/txtTitleG"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:text="@string/title_user"
+            android:textAppearance="?attr/textAppearanceHeadline6"
+            android:textColor="@color/secondaryDarkColor"
+            android:textSize="32sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="10dp"
+            >
+
+            <ImageView
+                android:id="@+id/imgProfil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/name_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nome "
+                    android:textAppearance="?attr/textAppearanceHeadline6"
+                    android:textSize="22sp"
+                    android:gravity="left"
+                    />
+
+                <TextView
+                    android:id="@+id/age_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="eta"
+                    android:gravity="left"
+
+                    android:textAppearance="?attr/textAppearanceBody2"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/exp_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+
+                    android:text="livello di esperienza"
+                    android:textAppearance="?attr/textAppearanceBody2"
+                    android:textSize="16sp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/txtcell"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:textAppearance="?attr/textAppearanceBody2"
+                    android:textSize="16sp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+

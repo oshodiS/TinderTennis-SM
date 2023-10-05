@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav1"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="@string/nav_home"/>
+    <item
+        android:id="@+id/nav2"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_sports_tennis_24"
+        android:title="@string/nav_match"/>
+    <item
+        android:id="@+id/nav3"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_account_box_24"
+        android:title="@string/nav_user"
+        />
+</menu>
